@@ -3,7 +3,7 @@ import { margin } from '@styled-system/space'
 
 export const Container = styled.div`
   display: flex;
-  flex: 1;
+  flex-wrap: wrap;
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
@@ -17,7 +17,7 @@ export const Column = styled.div`
 `
 
 export const PostContainer = styled.div`
-  width: 300px;
+  max-width: 300px;
   border: 1px solid lightgray;
   border-radius: 8px;
   background: lightgray;
